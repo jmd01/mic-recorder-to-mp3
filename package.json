@@ -1,7 +1,7 @@
 {
-  "name": "mic-recorder-to-mp3",
+  "name": "@jmd01/mic-recorder-to-mp3",
   "version": "2.2.2",
-  "description": "Record your microphone audio input and get an audio/mp3 ouput buffer/blob.",
+  "description": "Record your microphone audio input and get an audio/mp3 ouput buffer/blob. Forked due to the bundled dist (which includes lamejs src) throwing the error \"LAME undefined\" when bundling with esbuild.",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
@@ -13,7 +13,7 @@
   "contributors": [
     "Vitor Buzinaro <vitor@close.io>"
   ],
-  "license": "MIT",
+  "license": "LGPL-3.0",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-plugin-external-helpers": "^6.22.0",
